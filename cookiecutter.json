@@ -1,0 +1,15 @@
+{
+    "gam_name" : "MyGAM",
+    "project_name" : "{{cookiecutter.project_name}}",
+    "package_name" : "{{cookiecutter.package_name}}",
+    "description" : "Another fine Function ?",
+    "license" : "# License : TBA",
+    "author" : "Adam V Stephen",
+    "date" : "{{cookiecutter.date}}",
+    "timestamp" : "{{cookiecutter.timestamp}}",
+    "copyright" : "{{cookiecutter.copyright}}",
+    "implementation_details" : "{{cookiecutter.implementation_details}}",
+    "interface_details" : "{{cookiecutter.interface_details}}",
+    "test_include_guard" : "{{cookiecutter.gam_name|upper}}TEST_H_",
+    "gam_include_guard" : "{{cookiecutter.gam_name|upper|replace('GAM','_GAM_H_')}}"
+}
