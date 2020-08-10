@@ -10,5 +10,5 @@
     "implementation_details" : "{{cookiecutter.implementation_details}}",
     "interface_details" : "{{cookiecutter.interface_details}}",
     "test_include_guard" : "{{cookiecutter.gam_name|upper}}TEST_H_",
-    "gam_include_guard" : "{{cookiecutter.gam_name|upper|replace('GAM','_GAM_H_')}}"
+    "gam_include_guard" : "{{cookiecutter.gam_include_guard}}"
 }
