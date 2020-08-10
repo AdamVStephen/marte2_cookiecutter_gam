@@ -1,6 +1,5 @@
 {
     "gam_name" : "MyGAM",
-    "project_name" : "{{cookiecutter.project_name}}",
     "package_name" : "{{cookiecutter.package_name}}",
     "description" : "Another fine Function ?",
     "license" : "# License : TBA",
